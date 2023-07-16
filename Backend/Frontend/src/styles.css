@@ -1,0 +1,373 @@
+/* .btn,
+.jumbotron,
+.nav :hover {
+  border-radius: 0px;
+} */
+
+body {
+  background: #e0e0e0;
+  /* margin-left: 3rem; */
+}
+
+/* footer { 
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+} */
+
+.new {
+  color: #555;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+
+/* .new:hover{
+  border-radius: 10px;
+background: #e0e0e0;
+box-shadow: inset 20px 20px 60px #bebebe,
+            inset -20px -20px 60px #ffffff;
+} */
+
+.menu {
+  font-size: larger;
+  background-color: #e0e0e0;
+  /* margin-top:1rem; */
+}
+
+.price {
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+.addtocart {
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+.addtocart:active {
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+
+.stripebutton {
+  position: sticky;
+  margin-top: 2rem;
+  bottom: 8rem;
+  right: 4rem;
+}
+
+.cart {
+  min-height: 100vh;
+}
+.noproduct {
+  margin-top: 10rem;
+}
+
+/* .typewriter{
+  position: relative;
+  top: 50%;  
+  width: 24em;
+  border-right: 2px solid rgba(255,255,255,.75);
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;   
+}
+
+/* Animation */
+/* .typewriter{
+animation: typewriter 3s steps(30) 1s 1 normal both,
+           blinkTextCursor 200ms steps(30) infinite normal;
+}
+
+@keyframes typewriter{
+from{width: 0;}
+to{width: 9em;}
+}
+
+@keyframes blinkTextCursor{
+from{border-right-color: rgba(255,255,255,.75);}
+to{border-right-color: transparent;}
+} */
+
+.login {
+  border-radius: 40px;
+  padding: 35px 35px 35px 35px;
+  height: 35rem;
+  margin-right: 5rem;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+
+.title {
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  font-size: 2.5rem;
+  font-weight: 24px;
+  letter-spacing: 0.5px;
+}
+
+.fields {
+  width: 100%;
+  padding: 20px 5px 5px 5px;
+}
+
+.fields input,
+.fields textarea,
+.fields select{
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.2rem;
+  width: 20rem;
+  color: #555;
+  padding: 20px 10px 20px 5px;
+}
+
+.email,
+.password,
+.name {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #d0d0d0, inset -8px -8px 8px #f0f0f0;
+}
+
+.fields svg {
+  height: 1.5rem;
+  transform: translateY(-5px);
+  margin: 0px 10px -3px 25px;
+}
+
+.signin-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 4rem;
+  margin-top: 0.7rem;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #555;
+  text-align: center;
+  background-color: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+  transition: all 0.5s;
+}
+
+.welcome {
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  margin: 0 auto;
+  font-size: 2.2rem;
+}
+
+.createaccount {
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  font-size: 2.2rem;
+  height: 100%;
+  margin-left: 5rem;
+  margin-right: 2rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(50, 50, 50, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgbs(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+}
+
+.createaccount div {
+  margin-top: 7rem;
+}
+
+.createaccount div div {
+  margin: 20px auto;
+}
+
+.createaccount div button {
+  width: 50%;
+}
+
+.logintoaccount {
+  text-align: center;
+  padding: 20px 10px 10px 10px;
+  font-size: 2.2rem;
+  height: 100%;
+  margin-left: 2rem;
+  margin-right: 5rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(50, 50, 50, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgbs(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+}
+
+.logintoaccount div {
+  margin-top: 7rem;
+}
+
+.logintoaccount div div {
+  margin: 20px auto;
+}
+
+.logintoaccount div button {
+  width: 50%;
+}
+
+.signup {
+  border-radius: 40px;
+  padding: 25px 35px 35px 35px;
+  height: 38rem;
+  margin-left: 5rem;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+
+.onlysignup {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+.onlysignin {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+footer {
+  width: 100%;
+  bottom: 0;
+  height: 6rem;
+  position: ;
+  background-color: #919191;
+}
+
+.cartglasseffect {
+  text-align: center;
+  padding: 50px 10px 10px 10px;
+  font-size: 2.2rem;
+  height: 100%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(50, 50, 50, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgbs(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+}
+
+.glasseffect {
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-size: 2rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-top: 8rem;
+
+  background: linear-gradient(
+    135deg,
+    rgba(50, 50, 50, 0.1),
+    rgba(255, 255, 255, 0)
+  );
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px 0 rgbs(0, 0, 0, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 32px;
+}
+
+.glasseffect ul li{
+  background-color: transparent;
+  color: #555;
+}
+
+.adminnav {
+  width: 22vw;
+  height: 22rem;
+  margin-top: 5rem;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+
+.adminpower{
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: 12px 12px 24px #d0d0d0, -12px -12px 24px #f0f0f0;
+}
+
+.adminpower li{
+  background-color: #e0e0e0e0;
+}
+
+.adminpower li:hover{
+  box-shadow: inset 8px 8px 8px #d0d0d0, inset -8px -8px 8px #f0f0f0;
+}
+
+.admindashboard, .allproducts{
+  min-height: 100vh
+}
+
+.createcategory{
+  margin: 0 auto;
+  margin-top: 6rem;
+  width: 50vw;
+  min-height: 100vh;
+}
+
+.imageinput input{
+  border: none;
+}
+
+.addprod{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 25px;
+  box-shadow: inset 8px 8px 8px #d0d0d0, inset -8px -8px 8px #f0f0f0; 
+}
+
+.addprod input,
+.addprod select{
+  width: 45rem;
+}
+
+.addprod textarea{
+  width: 50rem;
+}
+
+.addprod select{
+  width: 47rem;
+}
+
+.hover:hover{
+  margin: auto;
+  text-align: center;
+  border-radius: 12px;
+  background: #e0e0e0;
+  box-shadow: inset 8px 8px 8px #d0d0d0, inset -8px -8px 8px #f0f0f0; 
+}
+
+.productname{
+  font-size: 1.7rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
